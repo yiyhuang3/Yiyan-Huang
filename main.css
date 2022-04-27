@@ -1,0 +1,140 @@
+:root {
+  --text-color: #222;
+  --background-color: #dcdcdc;
+  --accent-color: #001b62;
+  --header-color: #8396bc;
+
+  --font-family: "Crimson Text", serif;
+
+  --font-size-small: 15px;
+  --font-size-normal: 17px;
+  --font-size-large: 20px;
+  --font-size-larger: 24px;
+
+  --font-weight-normal: normal;
+  --font-weight-bold: 700;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size-normal);
+  line-height: 1.4;
+  color: var(--text-color);
+  text-rendering: optimizeLegibility;
+}
+
+.monospace {
+  font-family: monospace;
+  font-size: var(--font-size-small);
+}
+
+.bold {
+  font-weight: var(--font-weight-bold);
+}
+
+.italics {
+  font-style: italic;
+}
+
+.larger {
+  font-size: var(--font-size-larger);
+}
+
+.large {
+  font-size: var(--font-size-large);
+}
+
+a {
+  color: var(--accent-color);
+}
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.indent {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.centered {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-spacer {
+  flex: 1;
+}
+
+/* Header */
+
+#header {
+  display: flex;
+  flex-direction: row;
+
+  background: var(--header-color);
+  border-bottom: 1px solid var(--accent-color);
+}
+
+#header a {
+  text-decoration: none;
+}
+
+.header-item {
+  margin: 10px 10px 10px 0;
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Contents */
+#contents {
+  margin-top: 20px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: var(--font-size-larger);
+  margin-bottom: 10px;
+}
+
+.section-contents {
+  text-align: justify;
+}
+
+.section-contents img {
+  border: 5px solid #fff;
+  box-shadow: 1px 1px 3px 0px rgb(0 0 0 / 20%);
+  margin: -5px 20px 0 -5px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .flex-row {
+    flex-direction: column;
+  }
+  .centered {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
