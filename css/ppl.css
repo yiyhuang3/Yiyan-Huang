@@ -1,0 +1,39 @@
+#main2 * {
+	padding: 0;
+}
+#main2 li {
+	width: 300px;
+	float: left;
+	list-style: none;
+	background:#FFFFFF;
+	margin:15px 15px 15px;
+}
+
+#main2 li img {
+	display: block;
+	padding: 5px;
+	background-color: #FFF;
+	/*box-shadow: 0px 0px 18px rgba(0,0,0,.4);*/
+	/*
+	refresh animation
+	-webkit-transition: all ease .3s;
+	transition: all ease .3s;
+	*/
+	/*margin:40px 68px;*/
+	/*border-radius:50%;*/
+    margin-left: 80px;
+
+}
+
+/*
+#main2 li img:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	box-shadow: 0px 0px 18px rgba(0,0,0,.5);
+}
+*/
+
+#main2 p {
+	text-align:center;font-size:18px;
+}
+
