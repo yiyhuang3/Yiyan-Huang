@@ -7,11 +7,11 @@ table#tlayout {
 }
 
 body {
-	background: white;
+	background: cyan;
 	font-family: Georgia, serif;
 	padding-bottom: 8px;
 	margin: 0px;
-	width:100px
+	width:50%
 }
 
 #layout-menu {
