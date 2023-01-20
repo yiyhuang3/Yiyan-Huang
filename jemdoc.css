@@ -9,9 +9,9 @@ table#tlayout {
 body {
 	background: white;
 	font-family: Georgia, serif;
-	padding-bottom: 8px;
-	margin: 10px;
-	width:60%
+	padding-bottom: 15px;
+	margin: 15px;
+	width:70%
 }
 
 #layout-menu {
