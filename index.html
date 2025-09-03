@@ -1,118 +1,321 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-<meta name="google-site-verification" content="RWFD3FvgWgVvC5osIu5U8i9DAP3flGiuzhdxKDKoYxk" />
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Yiyan HUANG</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yiyan Huang — Home</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#4f46e5;--glass:rgba(255,255,255,0.03)}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:linear-gradient(180deg,#071026 0%, #071021 60%);color:#e6eef6}
+    .container{max-width:1100px;margin:36px auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:14px;align-items:center}
+    .avatar{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px;color:white}
+    h1{margin:0;font-size:20px}
+    .lang-toggle{background:var(--glass);border:1px solid rgba(255,255,255,0.04);padding:8px 12px;border-radius:10px;cursor:pointer}
+    main{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:22px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;padding:20px;border:1px solid rgba(255,255,255,0.03);box-shadow:0 6px 20px rgba(2,6,23,0.6)}
+    .section-title{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+    .pill{padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.03);font-size:12px;color:var(--muted)}
+    p{color:#cfe6ff;line-height:1.6}
+    ul{margin:8px 0 0 18px;color:#dbeeff}
+    .meta{margin-top:14px;display:flex;gap:10px;flex-wrap:wrap}
+    a.btn{display:inline-block;padding:8px 12px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-size:13px}
+    footer{margin-top:20px;color:var(--muted);font-size:13px}
+    /* language helpers */
+    [data-lang="zh"]{display:none}
+    /* responsive */
+    @media (max-width:900px){main{grid-template-columns:1fr} .avatar{width:56px;height:56px}}
+  </style>
 </head>
 <body>
-<!-- <table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-category">CompuNeuraLab</div>
-<div class="menu-item"><a href="index.html">Home</a></div>
-<div class="menu-item"><a href="news.html">News</a></div>
-<div class="menu-item"><a href="photos.html">Photos</a></div>
-<div class="menu-category">People</div>
-<div class="menu-item"><a href="rosa.html" class="current">Rosa&nbsp;H.M.&nbsp;Chan</a></div>
-<div class="menu-item"><a href="student.html">Research&nbsp;Student</a></div>
-<div class="menu-item"><a href="ra.html">Research&nbsp;Assistant</a></div>
-<div class="menu-item"><a href="alumni.html">Alumni</a></div>
-<div class="menu-category">Research</div>
-<div class="menu-item"><a href="pub.html">Publications</a></div>
-<div class="menu-item"><a href="data.html">Datasets</a></div>
-</td> -->
-<td id="layout-content">
-<div id="toptitle">
+  <div class="container">
+    <section class='card lab-top' style='margin-bottom:18px'>
+  <div class='section-title'>
+    <div class='pill' data-lang='en'>Causal & Data Science Lab (Causal-Stat Lab)</div>
+    <div class='pill' data-lang='zh'>因果与数据科学实验室（Causal-Stat 实验室）</div>
+  </div>
 
-    <style>
-    .information-list {
-        margin-bottom: 15px;
+  <div data-lang='en'>
+    <p>
+      The <strong>Causal & Data Science Lab</strong> studies the two-way synergy between causal inference and quantitative data sciences. We develop theory and methods where causal thinking improves ML/optimization, and scalable statistical & ML tools strengthen causal analysis. Applications span domain adaptation, OOD detection, uncertainty & robustness, digital business & operations, environmental / sustainability studies, and bioinformatics.
+    </p>
+
+    <div style='margin-top:8px'>
+      <strong>Research directions</strong>
+      <ul>
+        <li>A — Causal inference: identification under interference/hidden confounding, counterfactual & causal representation learning, robustness.</li>
+        <li>B — Statistics / ML / OR: scalable estimation, generalization, uncertainty quantification, domain adaptation, constrained decision-making.</li>
+        <li>Synergies & Applications: (a) A→B: causal priors for ML; (b) B→A: scalable/robust estimators; (c) applications in ML, management science, social & biomedical sciences.</li>
+      </ul>
+    </div>
+
+    <div style='margin-top:8px'>
+      <strong>Research team</strong>
+      <ul>
+        <li><strong>PI:</strong> Yiyan Huang (Principal Investigator)</li>
+        <li><strong>Postdocs / Research Fellows:</strong> (open)</li>
+        <li><strong>PhD students:</strong> (open)</li>
+        <li><strong>Collaborators:</strong> domain experts in management science, environmental science, and bioinformatics.</li>
+      </ul>
+    </div>
+
+    <div class='meta' style='margin-top:10px'>
+      <a class='btn' href='#lab'>Learn more</a>
+      <a class='btn' href='#contact' style='background:#111827'>Join / Contact</a>
+    </div>
+  </div>
+
+  <div data-lang='zh'>
+    <p>
+      <strong>因果与数据科学实验室</strong>研究因果推断与定量数据科学之间的双向协同。我们开发理论与方法：既用因果视角提升机器学习与优化的可靠性，也用可扩展的统计/机器学习工具强化因果识别与估计。应用领域包括域适应、分布外检测、不确定性与鲁棒性、数字商业与运筹、环境与可持续性研究以及生物信息学。
+    </p>
+
+    <div style='margin-top:8px'>
+      <strong>研究方向</strong>
+      <ul>
+        <li>A — 因果推断：在干扰/未观测混淆条件下的可辨识性与鲁棒性、反事实与因果表示学习。</li>
+        <li>B — 统计/机器学习/运筹学：可扩展估计、泛化与不确定性量化、域适应、约束下的决策优化。</li>
+        <li>协同与应用：(a) A→B：为ML引入因果先验；(b) B→A：可扩展/鲁棒估计方法；(c) 在机器学习、管理科学、社会与生物医学领域的应用。</li>
+      </ul>
+    </div>
+
+    <div style='margin-top:8px'>
+      <strong>研究团队</strong>
+      <ul>
+        <li><strong>负责人：</strong>黄艺言（首席研究员）</li>
+        <li><strong>博士后 / 研究员：</strong>（招募中）</li>
+        <li><strong>博士生：</strong>（招募中）</li>
+        <li><strong>合作研究者：</strong>来自管理科学、环境科学及生物信息学的领域专家。</li>
+      </ul>
+    </div>
+
+    <div class='meta' style='margin-top:10px'>
+      <a class='btn' href='#lab'>了解更多</a>
+      <a class='btn' href='#contact' style='background:#111827'>加入 / 联系</a>
+    </div>
+  </div>
+</section>
+
+<header>
+      <div class="brand">
+        <div class="avatar">YH</div>
+        <div>
+          <h1 data-lang="en">Yiyan Huang — Researcher</h1>
+          <h1 data-lang="zh">黄艺言 — 研究员</h1>
+          <div style="font-size:13px;color:var(--muted);margin-top:6px" data-lang="en">Causal inference × Statistics / ML / Data Science / OR</div>
+          <div style="font-size:13px;color:var(--muted);margin-top:6px" data-lang="zh">因果推断 × 统计/机器学习/数据科学/运筹学</div>
+        </div>
+      </div>
+      <div>
+        <button id="langBtn" class="lang-toggle">中文 / English</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Personal intro -->
+      <section class="card">
+        <div class="section-title">
+          <div class="pill" data-lang="en">Personal</div>
+          <div class="pill" data-lang="zh">个人简介</div>
+        </div>
+
+        <div data-lang="en">
+          <table class="imgtable" style="margin: 10px 0; width:100%"><tr>
+            <td style="width:180px;vertical-align:top"><img src="my photo.jpg" alt="Yiyan Huang" style="width:170px;height:212px;border-radius:6px;object-fit:cover;"/></td>
+            <td style="vertical-align:top;padding-left:12px">
+              <h2 style="margin-top:0">Yiyan Huang</h2>
+              <p><strong>Email</strong>: <a href="mailto:huangyiyan@gbu.edu.cn" style="color:#cfe6ff">huangyiyan@gbu.edu.cn</a></p>
+              <p><strong>Location</strong>: Great Bay University, Songshan Lake, Dongguan, China</p>
+              <p>I am a tenure-track Assistant Professor (independent PI) of computer science at Great Bay University (starting Spring 2025). Previously, I was a Postdoctoral Researcher at the Department of Applied Mathematics, Hong Kong Polytechnic University (hosted by Prof. Min Dai). I received my Ph.D. in Data Science from City University of Hong Kong (supervisor: Prof. Qi Wu) and was a visiting researcher at Brown University's Department of Economics (hosted by Prof. Toru Kitagawa).</p>
+            </td>
+          </tr></table>
+
+          <div style="background:rgba(220,238,255,0.06);border-radius:8px;padding:12px;margin-top:12px;color:#e6eef6">
+            <strong>Prospective opportunities:</strong>
+            <p>I am looking for self-motivated Master (湾大-深大联培硕士) and PhD (湾大-哈工大联培博士) students, and have openings for Researcher and Postdoctoral positions (postdoctoral certificate awarded by THU or USTC). Postdoc salary range: 400k–450k CNY/year. See GBU recruitment page for details.</p>
+            <p>Please email your CV if you are interested in topics related to causal inference, machine learning, data science, domain adaptation, or management science.</p>
+          </div>
+
+          <h3 style="margin-top:16px">Research Interests</h3>
+          <p>My research lies at the intersection of Data Science, Causal Inference, Machine Learning, and Data-Driven Decision Making. I focus on using machine learning tools to estimate treatment effects and assist policy-makers in personalized decision making.</p>
+
+          <h3 style="margin-top:12px">Publications (selected)</h3>
+          <ul>
+            <li>Cheuk Hang Leung, <strong>Yiyan Huang</strong> (co-first), Yijun Li, Qi Wu. Distributionally Robust Off-Policy Evaluation and Learning with Continuous Treatments. <em>AAAI-2025</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Siyi Wang, Yijun Li, Qi Wu. Unveiling the Potential of Robustness in Selecting CATE Estimators. <em>NeurIPS-2024</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Siyi Wang, Cheuk Hang Leung, Qi Wu, Dongdong Wang, Zhixiang Huang. DIGNet: Learning Decomposed Patterns in Representation Balancing for Treatment Effect Estimation. <em>TMLR, 2024</em>.</li>
+            <li>Yijun Li, Cheuk Hang Leung, Xiangqian Sun, Chaoqun Wang, <strong>Yiyan Huang</strong>, et al. The Causal Impact of Credit Lines on Spending Distributions. <em>AAAI-2024</em>.</li>
+            <li>Shumin Ma, Zhiri Yuan, Qi Wu, <strong>Yiyan Huang</strong>, et al. Deep into The Domain Shift: Transfer Learning through Dependence Regularization. <em>TNNLS, 2023</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Shumin Ma, et al. Towards Balanced Representation Learning for Credit Policy Evaluation. <em>AISTATS-2023</em>.</li>
+            <li>Zhiri Yuan, Xixu Hu, Qi Wu, Shumin Ma, Cheuk Hang Leung, Xin Shen, <strong>Yiyan Huang</strong>. A Unified Domain Adaptation Framework with Distinctive Divergence Analysis. <em>TMLR, 2022</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Xing Yan, Qi Wu, et al. Moderately-Balanced Representation Learning for Treatment Effects with Orthogonality Information. <em>PRICAI-2022</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Xing Yan, Qi Wu, et al. Robust Causal Learning for the Estimation of Average Treatment Effects. <em>IJCNN-2022 (oral)</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Qi Wu, Dongdong Wang, Zhixiang Huang. Interpretable Causal Inference via Causal Graphs. <em>BFS-2022 (oral abstract)</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Xing Yan, Qi Wu, et al. The Causal Learning of Retail Delinquency. <em>AAAI-2021</em>.</li>
+          </ul>
+
+          <h3 style="margin-top:12px">Working Papers</h3>
+          <ul>
+            <li>Siyi Wang, <strong>Yiyan Huang</strong> (co-first), Cheuk Hang Leung, Chaoqun Wang, Qi Wu. A Two-stage Disentangled and Balanced Representation Learning Method for Counterfactual Regression. <em>Information Sciences (Major Revision)</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Xing Yan, Qi Wu. Robust Causal Machine Learning of Treatment Effects. <em>JBES (Under review)</em>.</li>
+            <li>Cheuk Hang Leung, <strong>Yiyan Huang</strong> (co-first), Yijun Li, Qi Wu. Double Machine Learning for Time-Varying Continuous Treatment Effects. <em>JBES (Under review)</em>.</li>
+          </ul>
+
+          <h3 style="margin-top:12px">Others</h3>
+          <p>Internship at JD Digital Technology — Risk Management Center. Reviewer for major ML conferences and journals (ICML, NeurIPS, AAAI, AISTATS, ICLR, TMLR, etc.).</p>
+        </div>
+
+        <div data-lang="zh">
+          <table class="imgtable" style="margin: 10px 0; width:100%"><tr>
+            <td style="width:180px;vertical-align:top"><img src="my photo.jpg" alt="黄艺言" style="width:170px;height:212px;border-radius:6px;object-fit:cover;"/></td>
+            <td style="vertical-align:top;padding-left:12px">
+              <h2 style="margin-top:0">黄艺言（Yiyan Huang）</h2>
+              <p><strong>邮箱</strong>: <a href="mailto:huangyiyan@gbu.edu.cn" style="color:#cfe6ff">huangyiyan@gbu.edu.cn</a></p>
+              <p><strong>地点</strong>: 大湾区大学（松山湖校区），东莞，中国</p>
+              <p>我于2025年春季受聘为大湾区大学计算机系助理教授（独立PI）。此前在香港理工大学应用数学系担任博士后（导师：戴敏教授）。我在香港城市大学数据科学学院获得博士学位（导师：吴琦教授），并曾在布朗大学经济系作访问研究。</p>
+            </td>
+          </tr></table>
+
+          <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:12px;margin-top:12px;color:#e6eef6">
+            <strong>招募信息：</strong>
+            <p>我正在招收自驱动的硕士（湾大-深大联培）与博士（湾大-哈工大联培）学生，并开放研究员与博士后职位（博士后出站证书由清华或中科大颁发）。博士后年薪区间：40万–45万人民币。详情见湾大招聘页面。</p>
+            <p>如对因果推断、机器学习、数据科学、域适应或管理科学等方向感兴趣，请将简历发至我的邮箱。</p>
+          </div>
+
+          <h3 style="margin-top:16px">研究兴趣</h3>
+          <p>我的研究位于数据科学、因果推断、机器学习与数据驱动决策交叉处，主要使用机器学习工具估计处理效应并辅助决策者进行个性化决策。</p>
+
+          <h3 style="margin-top:12px">代表论文</h3>
+          <ul>
+            <li>Cheuk Hang Leung, <strong>Yiyan Huang</strong>（并列第一）, Yijun Li, Qi Wu. Distributionally Robust Off-Policy Evaluation and Learning with Continuous Treatments. <em>AAAI-2025</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Siyi Wang, Yijun Li, Qi Wu. Unveiling the Potential of Robustness in Selecting CATE Estimators. <em>NeurIPS-2024</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Siyi Wang, Cheuk Hang Leung, Qi Wu, Dongdong Wang, Zhixiang Huang. DIGNet: Learning Decomposed Patterns in Representation Balancing for Treatment Effect Estimation. <em>TMLR, 2024</em>.</li>
+            <li>Yijun Li, Cheuk Hang Leung, Xiangqian Sun, Chaoqun Wang, <strong>Yiyan Huang</strong>, 等. The Causal Impact of Credit Lines on Spending Distributions. <em>AAAI-2024</em>.</li>
+            <li>Shumin Ma, Zhiri Yuan, Qi Wu, <strong>Yiyan Huang</strong>, 等. Deep into The Domain Shift: Transfer Learning through Dependence Regularization. <em>TNNLS, 2023</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Shumin Ma, 等. Towards Balanced Representation Learning for Credit Policy Evaluation. <em>AISTATS-2023</em>.</li>
+            <li>Zhiri Yuan, Xixu Hu, Qi Wu, Shumin Ma, Cheuk Hang Leung, Xin Shen, <strong>Yiyan Huang</strong>. A Unified Domain Adaptation Framework with Distinctive Divergence Analysis. <em>TMLR, 2022</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Xing Yan, Qi Wu, 等. Moderately-Balanced Representation Learning for Treatment Effects with Orthogonality Information. <em>PRICAI-2022</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Xing Yan, Qi Wu, 等. Robust Causal Learning for the Estimation of Average Treatment Effects. <em>IJCNN-2022（口头）</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Qi Wu, Dongdong Wang, Zhixiang Huang. Interpretable Causal Inference via Causal Graphs. <em>BFS-2022（口头摘要）</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Xing Yan, Qi Wu, 等. The Causal Learning of Retail Delinquency. <em>AAAI-2021</em>.</li>
+          </ul>
+
+          <h3 style="margin-top:12px">在研论文</h3>
+          <ul>
+            <li>Siyi Wang, <strong>Yiyan Huang</strong>（并列第一）, Cheuk Hang Leung, Chaoqun Wang, Qi Wu. A Two-stage Disentangled and Balanced Representation Learning Method for Counterfactual Regression. <em>Information Sciences（Major Revision）</em>.</li>
+            <li><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Xing Yan, Qi Wu. Robust Causal Machine Learning of Treatment Effects. <em>JBES（审稿中）</em>.</li>
+            <li>Cheuk Hang Leung, <strong>Yiyan Huang</strong>（并列第一）, Yijun Li, Qi Wu. Double Machine Learning for Time-Varying Continuous Treatment Effects. <em>JBES（审稿中）</em>.</li>
+          </ul>
+
+          <h3 style="margin-top:12px">其他</h3>
+          <p>曾在京东数字科技实习（风控智能模型部）。审稿经历：IJCAI, AISTATS, ICML, NeurIPS, AAAI, ICLR, TMLR 等。</p>
+        </div>
+      </section>
+
+      <!-- Lab intro -->
+      <section id="lab" class="card">
+        <div class="section-title">
+          <div class="pill" data-lang="en">Lab & Research</div>
+          <div class="pill" data-lang="zh">实验室 & 研究方向</div>
+        </div>
+
+        <div data-lang="en">
+          <p>
+            Our lab bridges two complementary pillars:
+          </p>
+          <ul>
+            <li><strong>A — Causal inference:</strong> identification, robustness under violations (interference, hidden confounding, overlap failures), counterfactual reasoning, and causal representation learning.</li>
+            <li><strong>B — Statistics / Data Science / ML / OR:</strong> scalable estimation, generalization, model uncertainty, domain adaptation, optimization and decision-making under constraints.</li>
+          </ul>
+
+          <p>
+            We pursue three kinds of synergy between A and B:
+          </p>
+          <ol>
+            <li><strong>Use A to improve B:</strong> integrate causal structure to make ML models more robust and reliable.</li>
+            <li><strong>Use B to improve A:</strong> bring scalable, flexible statistical and ML tools to enhance causal identification and estimation.</li>
+            <li><strong>Joint applications:</strong> apply causal+statistical tools to Machine Learning (domain adaptation, OOD detection, uncertainty and robustness), Management Science (information systems, digital business, operations), Social Science (environment & sustainability) and Biomedical Science (bioinformatics).</li>
+          </ol>
+
+          <p>
+            If you are interested in theory, method or interdisciplinary applications — or seeking collaboration or student positions — please reach out.
+          </p>
+        </div>
+
+        <div data-lang="zh">
+          <p>
+            我们的实验室连接两大互补支柱：
+          </p>
+          <ul>
+            <li><strong>A — 因果推断：</strong>可辨识性、在假设违背下的鲁棒性（干扰、未观测混淆、重叠性失败）、反事实推理与因果表示学习。</li>
+            <li><strong>B — 统计/数据科学/机器学习/运筹学：</strong>可扩展估计、泛化与不确定性、域适应、优化与约束下的决策方法。</li>
+          </ul>
+
+          <p>
+            我们追求A与B之间的三类协同：
+          </p>
+          <ol>
+            <li><strong>用A提升B：</strong>把因果结构融入ML，使模型更稳健、更可靠。</li>
+            <li><strong>用B提升A：</strong>引入可扩展的统计/机器学习工具，提升因果识别与估计能力。</li>
+            <li><strong>结合应用：</strong>将因果+统计方法应用到机器学习（域适应、分布外检测、不确定性与鲁棒性）、管理科学（信息系统、数字商业、运筹管理）、社会科学（环境与可持续性）与生物医学（生物信息学）等领域。</li>
+          </ol>
+
+          <p>
+            欢迎对理论/方法/跨学科应用感兴趣的合作者与学生联系加入。
+          </p>
+        </div>
+
+        <div style="margin-top:12px;color:var(--muted);font-size:13px">Quick list / 研究要点:</div>
+        <div style="display:flex;gap:12px;margin-top:8px;flex-wrap:wrap">
+          <span class="pill" data-lang="en">A→B: causal priors for ML</span>
+          <span class="pill" data-lang="en">B→A: scalable estimation</span>
+          <span class="pill" data-lang="en">Applications: ML / Management / Social / Bio</span>
+
+          <span class="pill" data-lang="zh">A→B：为ML引入因果先验</span>
+          <span class="pill" data-lang="zh">B→A：可扩展估计方法</span>
+          <span class="pill" data-lang="zh">应用：机器学习 / 管理 / 社会 / 生物</span>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="card" style="margin-top:22px">
+      <div class="section-title">
+        <div class="pill" data-lang="en">Contact</div>
+        <div class="pill" data-lang="zh">联系</div>
+      </div>
+
+      <div data-lang="en">
+        <p>
+          Email: <a href="mailto:replace-me@example.com" style="color:#cfe6ff">replace-me@example.com</a> · GitHub: <a href="https://github.com/yiyhuang3" style="color:#cfe6ff">yiyhuang3</a>
+        </p>
+        <p style="color:var(--muted);font-size:13px">Notes: Replace the email & add links to your CV, publications, and group photos. Consider adding a short video intro or selected highlights.</p>
+      </div>
+
+      <div data-lang="zh">
+        <p>
+          邮箱：<a href="mailto:replace-me@example.com" style="color:#cfe6ff">replace-me@example.com</a> · GitHub：<a href="https://github.com/yiyhuang3" style="color:#cfe6ff">yiyhuang3</a>
+        </p>
+        <p style="color:var(--muted);font-size:13px">提示：请替换邮箱并补充简历、代表性论文和实验室照片。可考虑添加短视频或研究亮点列表。</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    // language toggle: toggles visibility of [data-lang]
+    const btn = document.getElementById('langBtn');
+    let zh = false; // default English visible
+    function updateLang(){
+      document.querySelectorAll('[data-lang]').forEach(el=>{
+        if(el.getAttribute('data-lang')==='zh') el.style.display = zh? 'block':'none';
+        if(el.getAttribute('data-lang')==='en') el.style.display = zh? 'none':'block';
+      })
+      btn.textContent = zh? 'English / 中文' : '中文 / English';
     }
-</style> 
-<ul class="information-list">
-<h1> Yiyan Huang (黄一晏) </h1>
-</div>
-<table class="imgtable" style="margin: 35px;">
-  <tr>
-    <td>
-<img src="my photo.jpg" width="170px" height="212px" /></a>&nbsp;</td>
-<td align="left">
-<p> 
-  
-<p> <b> Email</b>: huangyiyan@gbu.edu.cn </p>
-  <p> <b> Location</b>: Great Bay University, Songshan Lake, Dongguan, China </p>
-<p> Welcome to my homepage! I am a tenure-track Assistant Professor (independent PI) of computer science at Great Bay University (大湾区大学) from 2025 Spring. In 2024, I was a Postdoctoral researcher at the Department of Applied Mathematics, Hong Kong Polytechnic University (PolyU), hosted by <a href="https://www.polyu.edu.hk/ama/people/academic-staff/prof-dai-min/">Prof. Min Dai</a>.
-  In 2023, I obtained my Ph.D. degree in Data Science from the School of Data Science at City University of Hong Kong (CityU), supervised by <a href="http://www.cityu.edu.hk/stfprofile/qiwu55.htm">Prof. Qi Wu</a>.
-  In 2023, I was also a visiting research scholar at the Department of Economics, Brown University, hosted by <a href="https://sites.google.com/brown.edu/torukitagawa">Prof. Toru Kitagawa</a>.
-  In 2019, I obtained my Bachelor's degree in Finance from the Department of Statistics and Finance at the University of Science and Technology of China (USTC). 
-</p>
-<p> 
-
-  </ul>
-</td></tr>
-</table>
-
-  <style>
-    .information-list {
-        margin-bottom: 10px;
-    }
-</style> 
-<ul class="information-list"></li>
-  <div style="background-color: rgba(220, 238, 255, 0.6); border: 1px solid #000000; padding: 12px 16px; border-radius: 6px; margin: 16px 0;">
-  <p> <strong>Prospective opportunities:</strong></p> 
-  <p> 
-  I am looking for self-motivated Master (湾大-深大联培硕士生) and PhD (湾大-哈工大联培博士生) students to join my research team. 
-  I also have several openings for Researcher (特任研究员) and Postdoctoral (博士后) positions, with the postdoctoral certificate awarded by THU or USTC（博后出站颁发清华大学博后证书或中国科学技术大学博后证书）.
-  The salary of postdoc ranges from 400k-450k CNY/year, and details can be found via <a href="https://www.gbu.edu.cn/menu/193">GBU Recruitment Page</a>.
-  </p>
-      <p> 
-    Please email me your CV if you are interested in research topics related to Causal Inference, Machine Learning, Data Science, Domain Adaptation, Management Science, etc.
-</p>
-</div>
-  
-    <h2>Research Interests</h2>
-<p> My research interests lie at the intersections of several disciplines, including Data Science, Causal Inference, Machine Learning, and Data-Driven Decision Making. 
-  In particular, most of my work uses machine learning tools to estimate treatment effects in various fields and assist policy-makers in personalized decision making.
-</p>
-
-
-<h2>Publications</h2>
-
-<ul>
-  <li style="margin-bottom: 10px;"> Cheuk Hang Leung, <strong>Yiyan Huang (co-first author) </strong>, Yijun Li, Qi Wu. Distributionally Robust Off-Policy Evaluation and Learning with Continuous Treatments. <i>The 39th AAAI Conference on Artificial Intelligence</i> (AAAI-2025).</li>
-    <li style="margin-bottom: 10px;"><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Siyi Wang, Yijun Li, Qi Wu. Unveiling the Potential of Robustness in Selecting Conditional Average Treatment Effect Estimators. <i>The 38th Annual Conference on Neural Information Processing Systems</i> (NeurIPS-2024).</li>
-    <li style="margin-bottom: 10px;"><strong>Yiyan Huang</strong>, Siyi Wang, Cheuk Hang Leung, Qi Wu, Dongdong Wang, Zhixiang Huang. DIGNet: Learning Decomposed Patterns in Representation Balancing for Treatment Effect Estimation. <i>Transactions on Machine Learning Research</i> (TMLR, 2024).</li>
-    <li style="margin-bottom: 10px;">Yijun Li, Cheuk Hang Leung, Xiangqian Sun, Chaoqun Wang, <strong>Yiyan Huang</strong>, Xing Yan, Qi Wu, Dongdong Wang, Zhixiang Huang. The Causal Impact of Credit Lines on Spending Distributions. <i>The 38th AAAI Conference on Artificial Intelligence</i> (AAAI-2024).</li>
-    <li style="margin-bottom: 10px;">Shumin Ma, Zhiri Yuan, Qi Wu, <strong>Yiyan Huang</strong>, Xixu Hu, Cheuk Hang Leung, Dongdong Wang, Zhixiang Huang. Deep into The Domain Shift: Transfer Learning through Dependence Regularization. <i>IEEE Transactions on Neural Networks and Learning Systems</i> (TNNLS, 2023).</li>
-    <li style="margin-bottom: 10px;"><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Shumin Ma, Zhiri Yuan, Qi Wu, Siyi Wang, Dongdong Wang, Zhixiang Huang. Towards Balanced Representation Learning for Credit Policy Evaluation. <i>The 26th International Conference on Artificial Intelligence and Statistics</i> (AISTATS-2023).</li>
-    <li style="margin-bottom: 10px;">Zhiri Yuan, Xixu Hu, Qi Wu, Shumin Ma, Cheuk Hang Leung, Xin Shen, <strong>Yiyan Huang</strong>. A Unified Domain Adaptation Framework with Distinctive Divergence Analysis. <i>Transactions on Machine Learning Research</i> (TMLR, 2022).</li>
-    <li style="margin-bottom: 10px;"><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Shumin Ma, Qi Wu, Dongdong Wang, Zhixiang Huang. Moderately-Balanced Representation Learning for Treatment Effects with Orthogonality Information. <i>The 19th Pacific Rim International Conference on Artificial Intelligence</i> (PRICAI-2022).</li>
-    <li style="margin-bottom: 10px;"><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Xing Yan, Qi Wu, Shumin Ma, Zhiri Yuan, Dongdong Wang, Zhixiang Huang. Robust Causal Learning for the Estimation of Average Treatment Effects. <i>The 2022 International Joint Conference on Neural Networks</i> (IJCNN-2022, oral).</li>
-    <li style="margin-bottom: 10px;"><strong>Yiyan Huang</strong>, Qi Wu, Dongdong Wang, Zhixiang Huang. Interpretable Causal Inference via Causal Graphs. <i>11th World Congress of the Bachelier Finance Society</i> (abstract oral presentation at BFS-2022).</li>
-    <li style="margin-bottom: 10px;"><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Xing Yan, Qi Wu, Nanbo Peng, Dongdong Wang, Zhixiang Huang. The Causal Learning of Retail Delinquency. <i>The Thirty-Fifth AAAI Conference on Artificial Intelligence</i> (AAAI-2021).</li>
-</ul>  
-
-<h2>Working Papers</h2>
-  <ul>
-    <li style="margin-bottom: 10px;"><span style="margin-top: 10px;">Siyi Wang, <strong>Yiyan Huang</strong> (co-first author), Cheuk Hang Leung, Chaoqun Wang, Qi Wu. A Two-stage Disentangled and Balanced Representation Learning Method for Counterfactual Regression. <i>Information Sciences</i> (IS, Major Revision).</span></li>
-    <li style="margin-bottom: 10px;"><strong>Yiyan Huang</strong>, Cheuk Hang Leung, Xing Yan, Qi Wu. Robust Causal Machine Learning of Treatment Effects. <i>Journal of Business &amp; Economic Statistics</i> (JBES, Under review).</li>
-    <li style="margin-bottom: 10px;"><span style="margin-top: 10px;">Cheuk Hang Leung, <strong>Yiyan Huang</strong> (co-first author), Yijun Li, Qi Wu. Double Machine Learning for Time-Varying Continuous Treatment Effects. <i>Journal of Business &amp; Economic Statistics</i> (JBES, Under review).</span></li>
-</ul> 
-<b>Some other submitted papers (e.g., IEEE TPAMI, Management Science) are not listed here, as following the double-blind rule.</b>
-  
-<h2>Others</h2>
-<p>
-Internship at JD Digital Technology-Risk Management Center-Intelligent Model Department.
-</p>
-<p>
-Reviewers for IJCAI2021, AISTATS2022, ICML2022, Neurips2022, ICML2023, Neurips2023, ICML2024, Neurips2024, AAAI2025, AISTATS2025, ICLR2025, ICML2025, Transactions on Machine Learning Research, etc.
-</p>
-  
-</ul>
-</table>
+    btn.addEventListener('click', ()=>{ zh = !zh; updateLang(); });
+    // initialize
+    updateLang();
+  </script>
 </body>
 </html>
