@@ -38,7 +38,129 @@
 </div>
 
 
-<table class="imgtable" style="margin: 35px;">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  /* 基础全局样式设定 */
+  .homepage-container {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 950px; /* 控制整体网页最大宽度 */
+    margin: 40px auto; /* 居中显示 */
+    padding: 20px;
+  }
+
+  /* 顶部：图片与个人信息的Flex布局 */
+  .profile-header {
+    display: flex;
+    gap: 40px; /* 图片和文字之间的间距 */
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+
+  /* 照片样式 */
+  .profile-photo img {
+    width: 212px;
+    border-radius: 8px; /* 轻微的圆角 */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* 柔和的阴影 */
+  }
+
+  /* 个人信息文字样式 */
+  .profile-info p {
+    margin: 8px 0;
+  }
+  
+  .profile-info a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  
+  .profile-info a:hover {
+    text-decoration: underline;
+  }
+
+  /* 章节标题样式 */
+  .section-title {
+    font-size: 1.25em;
+    color: #24292e;
+    border-bottom: 2px solid #eaecef; /* 标题下方的分割线 */
+    padding-bottom: 8px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  /* 列表样式优化 */
+  .resume-list {
+    padding-left: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .resume-list li {
+    margin-bottom: 10px;
+  }
+
+  /* 招生提示框样式 */
+  .opportunity-box {
+    background-color: #f1f8ff; /* 浅蓝色背景 */
+    border: 1px solid #c8e1ff; /* 边框颜色 */
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin-top: 40px;
+  }
+  
+  .opportunity-box h4 {
+    margin-top: 0;
+    color: #0366d6;
+    font-size: 1.1em;
+  }
+</style>
+</head>
+<body>
+
+<div class="homepage-container">
+  
+  <div class="profile-header">
+    <div class="profile-photo">
+      <img src="my photo.png" alt="Huang Yiyan Profile Photo" />
+    </div>
+    
+    <div class="profile-info">
+      <p><b>Email</b>: huangyiyan@gbu.edu.cn</p>
+      <p><b>Location</b>: Great Bay University, Songshan Lake, Dongguan, China</p>
+      <p style="margin-top: 15px;">Welcome to my homepage!</p>
+
+      <h4 class="section-title">Academic Positions</h4>
+      <ul class="resume-list">
+        <li><b>2025 – Present</b>: Tenure-track Assistant Professor (Independent PI), Computer Science, Great Bay University (大湾区大学).</li>
+        <li><b>2024</b>: Postdoctoral Researcher, Department of Applied Mathematics, Hong Kong Polytechnic University (PolyU). Hosted by <a href="https://www.polyu.edu.hk/ama/people/academic-staff/prof-dai-min/">Prof. Min Dai</a>.</li>
+        <li><b>2023</b>: Visiting Research Scholar, Department of Economics, Brown University. Hosted by <a href="https://sites.google.com/brown.edu/torukitagawa">Prof. Toru Kitagawa</a>.</li>
+      </ul>
+
+      <h4 class="section-title">Education Background</h4>
+      <ul class="resume-list">
+        <li><b>2023</b>: Ph.D. in Data Science, School of Data Science, City University of Hong Kong (CityU). Supervised by <a href="http://www.cityu.edu.hk/stfprofile/qiwu55.htm">Prof. Qi Wu</a>.</li>
+        <li><b>2019</b>: Bachelor's degree in Finance, Department of Statistics and Finance, University of Science and Technology of China (USTC).</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="opportunity-box">
+    <h4>📣 Prospective Opportunities</h4>
+    <p>I am looking for self-motivated Visiting students (访问学生), RAs (研究助理), Masters (湾大-南科大联培硕士生、湾大-深圳大学联培硕士生), and PhDs (湾大-哈工深联培博士生) to join my research team. I also have several openings for Postdoctoral (博士后) positions, with the postdoctoral certificate awarded by THU or USTC (博后出站颁发清华大学/中国科学技术大学博后联合培养证书). The salary of a postdoc ranges from 350k-400k CNY/year, and details can be found via <a href="#">GBU Recruitment Page</a>.</p>
+    <p>Please email me your CV if you are interested in research topics related to Causal Inference and Machine Learning.</p>
+  </div>
+
+</div>
+
+</body>
+</html>
+
+  
+<!-- <table class="imgtable" style="margin: 35px;">
   <tr>
     <td valign="top">
       <img src="my photo.png" width="212px" height="249px" alt="Profile Photo" />&nbsp;
@@ -62,7 +184,7 @@
       </ul>
     </td>
   </tr>
-</table>
+</table> -->
 
 
   
